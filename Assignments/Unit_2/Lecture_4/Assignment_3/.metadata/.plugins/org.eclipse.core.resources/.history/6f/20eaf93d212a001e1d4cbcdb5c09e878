@@ -1,0 +1,84 @@
+/*
+ * EX_3_STRINGS.c
+ *
+ *  Created on: 24 Jul 2023
+ *      Author: Gamal Hazem
+ */
+
+
+
+#include "stdio.h"
+#include "string.h"
+
+
+void main()
+{
+	int prompt=1;
+
+	char text [100];
+
+	char R_text[100];
+
+	int n = 0 ;
+
+	int i = 0;
+
+	while(1)
+	{
+
+
+		printf("Continue?   ");
+
+		fflush(stdin); fflush(stdout);
+
+		scanf("%d",&prompt);
+
+		fflush(stdin); fflush(stdout);
+
+		if (prompt==0)
+			break;
+
+
+		printf("Enter a string: ");
+
+		fflush(stdin); fflush(stdout);
+
+		gets (text);
+
+		fflush(stdin); fflush(stdout);
+
+        n = strlen(text);
+
+        for(i=1;i<=n;i++)
+        {
+
+        	R_text[i] = text[n-i];
+
+        }
+
+       // R_text[i] = 0;
+
+
+
+
+
+
+
+
+	    printf("Reverse string is :%s\r\n" , &R_text[0]);
+
+	    n=0;
+
+
+
+	}
+
+}
+
+
+
+
+
+
+
+

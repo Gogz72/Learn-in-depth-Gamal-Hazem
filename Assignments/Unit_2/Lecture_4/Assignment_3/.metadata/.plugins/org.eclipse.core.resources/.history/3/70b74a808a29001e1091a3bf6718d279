@@ -1,0 +1,91 @@
+/*
+ * EX_1_ARRAYS.c
+ *
+ *  Created on: 23 Jul 2023
+ *      Author: Gamal Hazem
+ */
+
+
+
+#include "stdio.h"
+
+
+void main()
+{
+	float a [2][2];
+	float b [2][2];
+
+	float sum [2][2];
+
+	int i , j;
+
+
+	while(1)
+	{
+
+
+
+
+		printf("Enter the elements of the 1st matrix\r\n");
+
+		fflush(stdin); fflush(stdout);
+
+		for (i=0;i<2;i++)
+		{
+			for (j=0;j<2;j++)
+			{
+				printf("Enter a%d%d",i+1,j+1);
+
+				fflush(stdin); fflush(stdout);
+
+				scanf("%f",a[i][j]);
+
+				fflush(stdin); fflush(stdout);
+			}
+		}
+
+		printf("Enter the elements of the 2nd matrix\r\n");
+
+		fflush(stdin); fflush(stdout);
+
+		for (i=0;i<2;i++)
+		{
+			for (j=0;j<2;j++)
+			{
+
+				printf("Enter b%d%d",i+1,j+1);
+
+				fflush(stdin); fflush(stdout);
+
+				scanf("%f",b[i][j]);
+
+				fflush(stdin); fflush(stdout);
+			}
+		}
+
+		for (i=0;i<2;i++)
+		{
+			for (j=0;j<2;j++)
+			{
+				sum[i][j] = (a[i][j])+(b[i][j]);
+
+				printf("%f   " , sum[i][j]);
+
+				fflush(stdin); fflush(stdout);
+
+
+			}
+
+			printf("\r\n");
+
+			fflush(stdin); fflush(stdout);
+
+
+
+		}
+
+
+
+	}
+
+}

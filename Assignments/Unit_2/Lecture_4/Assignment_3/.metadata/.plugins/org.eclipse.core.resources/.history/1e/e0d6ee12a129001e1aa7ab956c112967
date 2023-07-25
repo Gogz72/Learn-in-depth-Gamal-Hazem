@@ -1,0 +1,111 @@
+/*
+ * EX_4_ARRAYS.c
+ *
+ *  Created on: 23 Jul 2023
+ *      Author: Gamal Hazem
+ */
+
+
+
+#include "stdio.h"
+
+
+void main()
+{
+	int prompt=1;
+
+	int a [100];
+
+	int n;
+
+	int i , x , loc;
+
+	int temp[100];
+
+
+
+	while(1)
+	{
+
+
+		printf("Continue?   ");
+
+		fflush(stdin); fflush(stdout);
+
+		scanf("%d",&prompt);
+
+		fflush(stdin); fflush(stdout);
+
+		if (prompt==0)
+			break;
+
+
+		printf("Enter the number of elements: ");
+
+		fflush(stdin); fflush(stdout);
+
+		scanf("%d",&n);
+
+		fflush(stdin); fflush(stdout);
+
+		if (n>99)
+		{
+
+			printf("The number you entered exceeds the limit of the array. \r\ntry again.\r\n" );
+			continue;
+		}
+
+		printf("Enter the element to be inserted: ");
+
+		fflush(stdin); fflush(stdout);
+
+		scanf("%d",&x);
+
+		fflush(stdin); fflush(stdout);
+
+		printf("Enter the location: ");
+
+		fflush(stdin); fflush(stdout);
+
+		scanf("%d",&loc);
+
+		fflush(stdin); fflush(stdout);
+
+		n++;
+
+
+		for (i=0;i<loc;i++)
+			temp[i] = a[i];
+
+
+
+		for (i=loc;i<n-1;i++)
+		{
+			temp[i+1] = a[i];
+
+			a[i+1]=temp;
+
+
+
+		}
+
+		temp[loc] = x;
+
+
+
+
+		for(i=0;i<n;i++)
+			a[i]=temp[i];
+
+
+
+
+
+
+
+
+
+
+	}
+
+}

@@ -1,0 +1,71 @@
+///*
+// * EX_2_STRINGS.c
+// *
+// *  Created on: 24 Jul 2023
+// *      Author: Gamal Hazem
+// */
+//
+//
+//
+//
+//#include "stdio.h"
+//
+//
+//void main()
+//{
+//	int prompt=1;
+//
+//	char text [100];
+//
+//	int n = 0 ;
+//
+//	int i = 0;
+//
+//	while(1)
+//	{
+//
+//
+//		printf("Continue?   ");
+//
+//		fflush(stdin); fflush(stdout);
+//
+//		scanf("%d",&prompt);
+//
+//		fflush(stdin); fflush(stdout);
+//
+//		if (prompt==0)
+//			break;
+//
+//
+//		printf("Enter a string: ");
+//
+//		fflush(stdin); fflush(stdout);
+//
+//		gets (text);
+//
+//		fflush(stdin); fflush(stdout);
+//
+//
+//		while (text[i]!=0)
+//		{
+//			n++;
+//			i++;
+//
+//		}
+//
+//		i=0;
+//
+//	    printf("Length of string = %d \r\n" , n);
+//
+//	    n=0;
+//
+//
+//
+//	}
+//
+//}
+//
+//
+//
+//
+//

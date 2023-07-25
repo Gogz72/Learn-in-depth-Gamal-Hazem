@@ -1,0 +1,85 @@
+/*
+ * EX_2_ARRAYS.c
+ *
+ *  Created on: 23 Jul 2023
+ *      Author: Gamal Hazem
+ */
+
+#include "stdio.h"
+
+
+void main()
+{
+	int prompt=1;
+
+	float a [100];
+
+	int n;
+
+	int i;
+
+	float averagenemo = 0;
+
+
+	while(1)
+	{
+
+
+		printf("Continue?   ");
+
+		fflush(stdin); fflush(stdout);
+
+		scanf("%d",&prompt);
+
+		fflush(stdin); fflush(stdout);
+
+		if (prompt==0)
+			break;
+
+
+		printf("Enter the number of data:  \r\n");
+
+		fflush(stdin); fflush(stdout);
+
+		scanf("%f",&n);
+
+		fflush(stdin); fflush(stdout);
+
+		if (n>99)
+		{
+
+			printf("The number you entered exceeds the limit of the array. \r\n  try again. " );
+			continue;
+		}
+
+		for (i=0;i<n;i++)
+		{
+
+
+			printf("Enter number:  ");
+
+			fflush(stdin); fflush(stdout);
+
+			scanf("%f",&a[i]);
+
+			fflush(stdin); fflush(stdout);
+
+			averagenemo+=a[i];
+
+		}
+
+
+
+		printf("Average = %f" , averagenemo/n);
+
+		averagenemo = 0;
+
+
+
+
+
+
+
+	}
+
+}

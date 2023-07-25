@@ -1,0 +1,57 @@
+14:54:10 **** Incremental Build of configuration Debug for project HW_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3_STRINGS.o "..\\EX_3_STRINGS.c" 
+..\EX_3_STRINGS.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o HW_3.exe EX_1_ARRAYS.o EX_1_STRINGS.o EX_2_ARRAYS.o EX_2_STRINGS.o EX_3_ARRAYS.o EX_3_STRINGS.o EX_4_ARRAYS.o EX_5_ARRAYS.o 
+Info: Nothing to build for HW_3
+14:54:35 **** Incremental Build of configuration Debug for project HW_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3_STRINGS.o "..\\EX_3_STRINGS.c" 
+..\EX_3_STRINGS.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o HW_3.exe EX_1_ARRAYS.o EX_1_STRINGS.o EX_2_ARRAYS.o EX_2_STRINGS.o EX_3_ARRAYS.o EX_3_STRINGS.o EX_4_ARRAYS.o EX_5_ARRAYS.o 
+Info: Nothing to build for HW_3
+15:01:29 **** Incremental Build of configuration Debug for project HW_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3_STRINGS.o "..\\EX_3_STRINGS.c" 
+..\EX_3_STRINGS.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o HW_3.exe EX_1_ARRAYS.o EX_1_STRINGS.o EX_2_ARRAYS.o EX_2_STRINGS.o EX_3_ARRAYS.o EX_3_STRINGS.o EX_4_ARRAYS.o EX_5_ARRAYS.o 
+Info: Nothing to build for HW_3
+15:02:05 **** Incremental Build of configuration Debug for project HW_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3_STRINGS.o "..\\EX_3_STRINGS.c" 
+..\EX_3_STRINGS.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o HW_3.exe EX_1_ARRAYS.o EX_1_STRINGS.o EX_2_ARRAYS.o EX_2_STRINGS.o EX_3_ARRAYS.o EX_3_STRINGS.o EX_4_ARRAYS.o EX_5_ARRAYS.o 
+Info: Nothing to build for HW_3
+15:02:20 **** Incremental Build of configuration Debug for project HW_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3_STRINGS.o "..\\EX_3_STRINGS.c" 
+..\EX_3_STRINGS.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o HW_3.exe EX_1_ARRAYS.o EX_1_STRINGS.o EX_2_ARRAYS.o EX_2_STRINGS.o EX_3_ARRAYS.o EX_3_STRINGS.o EX_4_ARRAYS.o EX_5_ARRAYS.o 
+Info: Nothing to build for HW_3
+15:02:58 **** Incremental Build of configuration Debug for project HW_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3_STRINGS.o "..\\EX_3_STRINGS.c" 
+..\EX_3_STRINGS.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o HW_3.exe EX_1_ARRAYS.o EX_1_STRINGS.o EX_2_ARRAYS.o EX_2_STRINGS.o EX_3_ARRAYS.o EX_3_STRINGS.o EX_4_ARRAYS.o EX_5_ARRAYS.o 
+Info: Nothing to build for HW_3
+Info: Nothing to build for HW_3
+15:05:58 **** Incremental Build of configuration Debug for project HW_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3_STRINGS.o "..\\EX_3_STRINGS.c" 
+..\EX_3_STRINGS.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o HW_3.exe EX_1_ARRAYS.o EX_1_STRINGS.o EX_2_ARRAYS.o EX_2_STRINGS.o EX_3_ARRAYS.o EX_3_STRINGS.o EX_4_ARRAYS.o EX_5_ARRAYS.o 
+Info: Nothing to build for HW_3
