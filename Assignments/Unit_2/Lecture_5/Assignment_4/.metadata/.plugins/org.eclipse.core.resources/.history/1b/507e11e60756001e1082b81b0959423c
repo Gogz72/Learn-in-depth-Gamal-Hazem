@@ -1,0 +1,62 @@
+/*
+ * EX_4.c
+ *
+ *  Created on: 18 Sept 2023
+ *      Author: Gamal Hazem
+ */
+// POWER OF NUMBER
+
+#include <stdio.h>
+#include "string.h"
+
+void pow(int x , int n);
+
+void pow(int x , int n) {
+
+
+	if (n>0)
+	{
+        x*=x;
+		n--;
+
+	  pow(x , n);
+	}
+
+}
+
+	void main() {
+		int prompt = 1;
+		int x;
+		int n;
+
+		while (1) {
+
+			printf("\nContinue?");
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%d", &prompt);
+			fflush(stdin);
+			fflush(stdout);
+
+			if (prompt == 0)
+				break;
+
+			printf("Enter base number :  ");
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%d" , &x);
+			fflush(stdin);
+			fflush(stdout);
+			printf("Enter power number(positive integer :  ");
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%d" , &n);
+			fflush(stdin);
+			fflush(stdout);
+
+			pow(x,n);
+
+		}
+
+	}
+

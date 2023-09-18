@@ -1,0 +1,53 @@
+/*
+ * EX_2.c
+ *
+ *  Created on: 18 Sept 2023
+ *      Author: Gamal Hazem
+ */
+// CALCULATE FACTORIAL USING RECURSION
+
+#include <stdio.h>
+
+int factorial(int x);
+
+int factorial(int x) {
+	int num = 1;
+	int i;
+
+	for (i=x;i>0;i--)
+	  num *= i;
+return num;
+}
+
+	void main() {
+		int prompt = 1;
+		int x, y;
+
+		while (1) {
+
+			printf("Continue?");
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%d", &prompt);
+			fflush(stdin);
+			fflush(stdout);
+
+			if (prompt == 0)
+				break;
+
+			printf("Enter two numbers(intervals):   ");
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%d %d", &x, &y);
+			fflush(stdin);
+			fflush(stdout);
+			printf("Prime numbers between %d and %d are: " , x , y);
+			fflush(stdin);
+			fflush(stdout);
+			factorial(x);
+			printf("\n");
+
+		}
+
+	}
+

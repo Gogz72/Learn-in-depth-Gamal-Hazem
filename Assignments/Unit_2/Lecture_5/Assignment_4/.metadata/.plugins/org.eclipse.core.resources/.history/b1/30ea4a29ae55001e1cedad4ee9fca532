@@ -1,0 +1,21 @@
+/*
+ * EX_1.c
+ *
+ *  Created on: 18 Sept 2023
+ *      Author: Gamal Hazem
+ */
+// PRIME NUMBERS BETWEEN TWO INTERVALS
+
+int factorial (int x, int y);
+
+
+
+void main()
+{
+
+
+
+
+
+}
+

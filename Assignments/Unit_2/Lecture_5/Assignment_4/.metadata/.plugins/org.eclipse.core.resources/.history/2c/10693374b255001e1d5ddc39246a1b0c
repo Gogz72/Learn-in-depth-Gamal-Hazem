@@ -1,0 +1,56 @@
+/*
+ * EX_1.c
+ *
+ *  Created on: 18 Sept 2023
+ *      Author: Gamal Hazem
+ */
+// PRIME NUMBERS BETWEEN TWO INTERVALS
+
+
+#include <stdio.h>
+
+int prime (int x, int y);
+
+int prime (int x, int y)
+{
+
+
+
+}
+
+void main()
+{
+	int prompt = 1;
+	int x,y;
+
+	while (1)
+	{
+
+        printf("Continue?");
+        fflush(stdin); fflush(stdout);
+		scanf("%d",&prompt);
+		fflush(stdin); fflush(stdout);
+
+
+		if (prompt == 0)
+			break;
+
+
+		printf("Enter two numbers(intervals):   ");
+		fflush(stdin); fflush(stdout);
+		scanf("%d %d" , x , y);
+		fflush(stdin); fflush(stdout);
+		printf("Prime numbers between %d and %d are: ");
+		prime();
+
+
+
+
+
+
+
+	}
+
+
+}
+
