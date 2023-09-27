@@ -1,0 +1,102 @@
+/*
+ * EX_1.c
+ *
+ *  Created on: 26 Sept 2023
+ *      Author: Gamal Hazem
+ */
+
+
+#include "stdio.h"
+#include "strings.h"
+
+
+struct Sstudent read_data ();
+void print_data();
+
+
+struct Sstudent
+{
+	char name [50];
+
+	short roll_no;
+
+	float marks;
+
+};
+
+
+
+struct Sstudent read_data ()
+{
+	struct Sstudent student;
+
+	printf("Enter first name:");
+	fflush(stdin);fflush(stdout);
+
+	scanf("%s" , &student.name);
+	fflush(stdin);fflush(stdout);
+
+	printf("Enter roll number:");
+	fflush(stdin);fflush(stdout);
+
+	scanf("%hd" , &student.roll_no);
+	fflush(stdin);fflush(stdout);
+
+	printf("Enter marks:");
+	fflush(stdin);fflush(stdout);
+
+	scanf("%f" , &student.marks);
+	fflush(stdin);fflush(stdout);
+
+
+	return student;
+}
+
+
+void print_data(struct Sstudent student)
+{
+	printf("name: %s\n" , student.name);
+	fflush(stdin);fflush(stdout);
+
+
+	printf("Roll: %hd\n" , student.roll_no);
+	fflush(stdin);fflush(stdout);
+
+
+	printf("marks: %f\n" , student.marks);
+	fflush(stdin);fflush(stdout);
+
+}
+
+
+
+int main ()
+{
+
+	int prompt = 1;
+
+	struct Sstudent student;
+
+		while (1) {
+
+			printf("\nContinue?");
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%d", &prompt);
+			fflush(stdin);
+			fflush(stdout);
+
+			if (prompt == 0)
+				break;
+
+			student = read_data();
+
+			print_data(student);
+
+		}
+
+
+return 0;
+}
+
+

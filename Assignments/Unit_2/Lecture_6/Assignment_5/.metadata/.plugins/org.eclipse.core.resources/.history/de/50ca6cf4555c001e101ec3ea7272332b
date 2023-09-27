@@ -1,0 +1,101 @@
+/*
+ * EX_3.c
+ *
+ *  Created on: 26 Sept 2023
+ *      Author: Gamal Hazem
+ */
+
+
+#include "stdio.h"
+#include "strings.h"
+
+
+struct Scomplex read_data ();
+struct Scomplex Add_data();
+void print_data();
+
+
+struct Scomplex
+{
+
+	float real;
+
+	float im;
+};
+
+
+
+struct Scomplex read_data ()
+{
+	struct Scomplex complex;
+
+	printf("Enter Real and imaginary respectively:\n");
+	fflush(stdin);fflush(stdout);
+
+	scanf("%f %f" , &complex.real, &complex.im);
+	fflush(stdin);fflush(stdout);
+
+	return complex;
+}
+
+
+struct Scomplex Add_data(struct Scomplex complex_1 , struct Scomplex complex_2)
+{
+	struct Scomplex result;
+
+	int carry;
+
+	result.real = complex_1.real + complex_2.real;
+
+	result.im = complex_1.im + complex_2.im;
+
+	return result;
+}
+
+
+void print_data(struct Scomplex data)
+{
+	printf("\nSum of complex = %.3f + (%.3f)i \n" , data.real , data.im);
+	fflush(stdin);fflush(stdout);
+
+}
+
+
+
+
+int main ()
+{
+
+	int prompt = 1;
+
+	struct Scomplex complex_1;
+	struct Scomplex complex_2;
+	struct Scomplex result;
+
+		while (1) {
+
+			printf("Continue?");
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%d", &prompt);
+			fflush(stdin);
+			fflush(stdout);
+
+			if (prompt == 0)
+				break;
+
+			complex_1 = read_data();
+
+			complex_2 = read_data();
+
+			result = Add_data (complex_1 , complex_2);
+
+			print_data(result);
+
+		}
+
+
+return 0;
+}
+
+

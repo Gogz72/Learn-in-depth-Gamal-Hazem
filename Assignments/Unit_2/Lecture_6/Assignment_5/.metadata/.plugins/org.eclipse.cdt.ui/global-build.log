@@ -1,0 +1,30 @@
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+15:56:16 **** Incremental Build of configuration Debug for project Assignment_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_5.o "..\\Ex_5.c" 
+gcc -o Assignment_5.exe EX_1.o Ex_2.o Ex_3.o Ex_4.o Ex_5.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:56:27 **** Incremental Build of configuration Debug for project Assignment_5 ****
+Info: Internal Builder is used for build
+gcc -o Assignment_5.exe EX_1.o Ex_2.o Ex_3.o Ex_4.o Ex_5.o 
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+Info: Nothing to build for Assignment_5
+15:58:40 **** Incremental Build of configuration Debug for project Assignment_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_5.o "..\\Ex_5.c" 
+gcc -o Assignment_5.exe EX_1.o Ex_2.o Ex_3.o Ex_4.o Ex_5.o 
+Info: Nothing to build for Assignment_5
+15:59:46 **** Incremental Build of configuration Debug for project Assignment_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_5.o "..\\Ex_5.c" 
+gcc -o Assignment_5.exe EX_1.o Ex_2.o Ex_3.o Ex_4.o Ex_5.o 
+Info: Nothing to build for Assignment_5

@@ -1,0 +1,25 @@
+///*
+// * EX_5.c
+// *
+// *  Created on: 26 Sept 2023
+// *      Author: Gamal Hazem
+// */
+//
+
+#include <stdio.h>
+
+#define PI 3.14159
+#define AREA(r) (PI * (r) * (r))
+
+int main() {
+    double radius;
+
+    printf("Enter the radius of the circle: ");
+    scanf("%lf", &radius);
+
+    double area = AREA(radius);
+
+    printf("The area of the circle is: %.2lf\n", area);
+
+    return 0;
+}

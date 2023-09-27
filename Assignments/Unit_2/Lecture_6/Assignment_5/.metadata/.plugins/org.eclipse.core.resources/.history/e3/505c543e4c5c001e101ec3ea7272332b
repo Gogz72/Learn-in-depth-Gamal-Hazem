@@ -1,0 +1,119 @@
+/*
+ * EX_1.c
+ *
+ *  Created on: 26 Sept 2023
+ *      Author: Gamal Hazem
+ */
+
+
+#include "stdio.h"
+#include "strings.h"
+
+
+struct Sdistance read_data ();
+struct Sdistance Add_data();
+void print_data();
+
+
+struct Sdistance
+{
+
+	int feet;
+
+	float inch;
+};
+
+
+
+struct Sdistance read_data ()
+{
+	struct Sdistance distance;
+
+	printf("Enter information of distance:\n");
+	fflush(stdin);fflush(stdout);
+
+	printf("Enter feet:  ");
+	fflush(stdin);fflush(stdout);
+
+	scanf("%d" , &distance.feet);
+	fflush(stdin);fflush(stdout);
+
+	printf("Enter inches:  ");
+	fflush(stdin);fflush(stdout);
+
+	scanf("%f" , &distance.inch);
+	fflush(stdin);fflush(stdout);
+
+	return distance;
+}
+
+
+struct Sdistance Add_data(struct Sdistance distance_1 , struct Sdistance distance_2)
+{
+	struct Sdistance result;
+
+	int carry;
+
+	result.feet = distance_1.feet + distance_2.feet;
+
+	result.inch = distance_1.inch + distance_2.inch;
+
+	while (result.inch >= 10.0)
+
+	{
+		result.feet++;
+
+		result.inch -= 12.0;
+
+	}
+
+	return result;
+}
+
+
+void print_data(struct Sdistance data)
+{
+	printf("\nSum of distance = %d\' -%.1f\" \n" , data.feet , data.inch);
+	fflush(stdin);fflush(stdout);
+
+}
+
+
+
+
+int main ()
+{
+
+	int prompt = 1;
+
+	struct Sdistance distance_1;
+	struct Sdistance distance_2;
+	struct Sdistance result;
+
+		while (1) {
+
+			printf("Continue?");
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%d", &prompt);
+			fflush(stdin);
+			fflush(stdout);
+
+			if (prompt == 0)
+				break;
+
+			distance_1 = read_data();
+
+			distance_2 = read_data();
+
+			result = Add_data (distance_1 , distance_2);
+
+			print_data(result);
+
+		}
+
+
+return 0;
+}
+
+
