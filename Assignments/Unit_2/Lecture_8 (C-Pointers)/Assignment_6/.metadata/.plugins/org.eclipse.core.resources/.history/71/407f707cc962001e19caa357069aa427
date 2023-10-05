@@ -1,0 +1,71 @@
+/*
+ * Q3.c
+ *
+ *  Created on: 4 Oct 2023
+ *      Author: Gamal Hazem
+ */
+
+#include "stdio.h"
+#include"strings.h"
+
+
+
+
+
+int main() {
+
+////// PROMPT TO RELOOP THE FUNCTION //////
+
+	int prompt = 1;
+
+////// DATA FOR PROGRAM ///////
+
+	char sentence [30];
+
+    char* p = NULL;
+
+    int n , i;
+
+
+
+
+	while (1) {
+
+		printf("Continue?");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%d", &prompt);
+		fflush(stdin);
+		fflush(stdout);
+
+		if (prompt == 0)
+			break;
+
+////// PROGRAM //////
+
+		printf("input a string: ");
+		fflush(stdin);fflush(stdout);
+
+		gets (sentence);
+
+		p = sentence;
+
+		n = strlen (sentence);
+
+		p += n;
+
+		for (i = n-1 ; i>=0 ; i--)
+		{
+			printf("%c" , *p);
+			fflush(stdin);fflush(stdout);
+
+			p--;
+		}
+
+		printf("\n");
+		fflush(stdin);fflush(stdout);
+
+	}
+
+	return 0;
+}

@@ -1,0 +1,76 @@
+/*
+ * Q1.c
+ *
+ *  Created on: 4 Oct 2023
+ *      Author: Gamal Hazem
+ */
+
+#include "stdio.h"
+
+
+
+
+
+int main() {
+
+////// PROMPT TO RELOOP THE FUNCTION //////
+
+	int prompt = 1;
+
+////// DATA FOR PROGRAM ///////
+
+	int m = 29;
+
+    int* ab = NULL;
+
+
+
+
+	while (1) {
+
+		printf("Continue?");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%d", &prompt);
+		fflush(stdin);
+		fflush(stdout);
+
+		if (prompt == 0)
+			break;
+
+////// PROGRAM //////
+
+		printf("Address of m : 0X%p\n" , &m);
+		fflush(stdin);fflush(stdout);
+
+		printf("Value of m : %d\n" , m);
+		fflush(stdin);fflush(stdout);
+
+		ab = &m;
+
+		printf("Address of pointer ab : 0X%p\n" , ab);
+		fflush(stdin);fflush(stdout);
+
+		printf("content of pointer ab : %d\n" , *ab);
+		fflush(stdin);fflush(stdout);
+
+		*ab = 34;
+
+		printf("Address of pointer ab : 0X%p\n" , ab);
+		fflush(stdin);fflush(stdout);
+
+		printf("content of pointer ab : %d\n" , *ab);
+		fflush(stdin);fflush(stdout);
+
+		*ab = 7;
+
+		printf("Address of pointer ab : 0X%p\n" , ab);
+		fflush(stdin);fflush(stdout);
+
+		printf("content of pointer ab : %d\n" , *ab);
+		fflush(stdin);fflush(stdout);
+
+	}
+
+	return 0;
+}

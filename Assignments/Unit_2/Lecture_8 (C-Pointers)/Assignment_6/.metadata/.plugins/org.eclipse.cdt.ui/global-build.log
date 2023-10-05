@@ -1,0 +1,617 @@
+16:47:51 **** Rebuild of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:14:19: error: storage size of 'distance_1' isn't known
+  struct Sdistance distance_1;
+                   ^~~~~~~~~~
+..\Q1.c:15:19: error: storage size of 'distance_2' isn't known
+  struct Sdistance distance_2;
+                   ^~~~~~~~~~
+..\Q1.c:16:19: error: storage size of 'result' isn't known
+  struct Sdistance result;
+                   ^~~~~~
+..\Q1.c:31:2: error: expected declaration or statement at end of input
+  }
+  ^
+..\Q1.c:16:19: warning: unused variable 'result' [-Wunused-variable]
+  struct Sdistance result;
+                   ^~~~~~
+..\Q1.c:15:19: warning: unused variable 'distance_2' [-Wunused-variable]
+  struct Sdistance distance_2;
+                   ^~~~~~~~~~
+..\Q1.c:14:19: warning: unused variable 'distance_1' [-Wunused-variable]
+  struct Sdistance distance_1;
+                   ^~~~~~~~~~
+16:47:55 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:14:19: error: storage size of 'distance_1' isn't known
+  struct Sdistance distance_1;
+                   ^~~~~~~~~~
+..\Q1.c:15:19: error: storage size of 'distance_2' isn't known
+  struct Sdistance distance_2;
+                   ^~~~~~~~~~
+..\Q1.c:16:19: error: storage size of 'result' isn't known
+  struct Sdistance result;
+                   ^~~~~~
+..\Q1.c:31:2: error: expected declaration or statement at end of input
+  }
+  ^
+..\Q1.c:16:19: warning: unused variable 'result' [-Wunused-variable]
+  struct Sdistance result;
+                   ^~~~~~
+..\Q1.c:15:19: warning: unused variable 'distance_2' [-Wunused-variable]
+  struct Sdistance distance_2;
+                   ^~~~~~~~~~
+..\Q1.c:14:19: warning: unused variable 'distance_1' [-Wunused-variable]
+  struct Sdistance distance_1;
+                   ^~~~~~~~~~
+16:48:02 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:27:2: error: expected declaration or statement at end of input
+  }
+  ^
+16:52:08 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:20:10: warning: unused variable 'Ptest' [-Wunused-variable]
+     int* Ptest = NULL;
+          ^~~~~
+gcc -o Assignment_6.exe Q1.o 
+16:58:41 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:43:27: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+   printf("Address of m : %p\n" , m);
+                           ^
+..\Q1.c:24:10: warning: variable 'ab' set but not used [-Wunused-but-set-variable]
+     int* ab = NULL;
+          ^~
+gcc -o Assignment_6.exe Q1.o 
+17:00:57 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:43:27: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+   printf("Address of m : %p\n" , m);
+                           ^
+..\Q1.c:51:36: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+   printf("Address of pointer ab : %x\n" , ab);
+                                    ^
+gcc -o Assignment_6.exe Q1.o 
+17:02:04 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:43:27: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+   printf("Address of m : %p\n" , m);
+                           ^
+..\Q1.c:51:36: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+   printf("Address of pointer ab : %x\n" , ab);
+                                    ^
+..\Q1.c:59:36: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+   printf("Address of pointer ab : %x\n" , ab);
+                                    ^
+..\Q1.c:67:36: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+   printf("Address of pointer ab : %x\n" , ab);
+                                    ^
+gcc -o Assignment_6.exe Q1.o 
+Info: Nothing to build for Assignment_6
+17:03:10 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:51:36: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+   printf("Address of pointer ab : %x\n" , ab);
+                                    ^
+..\Q1.c:59:36: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+   printf("Address of pointer ab : %x\n" , ab);
+                                    ^
+..\Q1.c:67:36: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+   printf("Address of pointer ab : %x\n" , ab);
+                                    ^
+gcc -o Assignment_6.exe Q1.o 
+Info: Nothing to build for Assignment_6
+17:03:59 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+gcc -o Assignment_6.exe Q1.o 
+Info: Nothing to build for Assignment_6
+17:09:17 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Assignment_6.exe Q1.o Q2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:09:29 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -o Assignment_6.exe Q1.o Q2.o 
+Info: Nothing to build for Assignment_6
+17:10:27 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Assignment_6.exe Q1.o Q2.o 
+Info: Nothing to build for Assignment_6
+17:17:27 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+..\Q3.c: In function 'main':
+..\Q3.c:32:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'while'
+  while (1) {
+  ^~~~~
+..\Q3.c:27:9: warning: unused variable 'n' [-Wunused-variable]
+     int n , i
+         ^
+..\Q3.c:25:11: warning: unused variable 'p' [-Wunused-variable]
+     char* p = NULL;
+           ^
+..\Q3.c:23:7: warning: unused variable 'sentence' [-Wunused-variable]
+  char sentence [30];
+       ^~~~~~~~
+..\Q3.c:19:6: warning: unused variable 'prompt' [-Wunused-variable]
+  int prompt = 1;
+      ^~~~~~
+17:17:44 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+..\Q3.c: In function 'main':
+..\Q3.c:32:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'while'
+  while (1) {
+  ^~~~~
+..\Q3.c:27:9: warning: unused variable 'n' [-Wunused-variable]
+     int n , i
+         ^
+..\Q3.c:25:11: warning: unused variable 'p' [-Wunused-variable]
+     char* p = NULL;
+           ^
+..\Q3.c:23:7: warning: unused variable 'sentence' [-Wunused-variable]
+  char sentence [30];
+       ^~~~~~~~
+..\Q3.c:19:6: warning: unused variable 'prompt' [-Wunused-variable]
+  int prompt = 1;
+      ^~~~~~
+17:18:00 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+..\Q3.c: In function 'main':
+..\Q3.c:53:7: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   n = strlen (sentence);
+       ^~~~~~
+..\Q3.c:53:7: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Q3.c:53:7: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o 
+Info: Nothing to build for Assignment_6
+17:18:57 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+..\Q3.c: In function 'main':
+..\Q3.c:53:7: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   n = strlen (sentence);
+       ^~~~~~
+..\Q3.c:53:7: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Q3.c:53:7: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:19:09 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o 
+Info: Nothing to build for Assignment_6
+17:20:01 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+..\Q3.c: In function 'main':
+..\Q3.c:53:7: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   n = strlen (sentence);
+       ^~~~~~
+..\Q3.c:53:7: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Q3.c:53:7: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:20:10 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o 
+Info: Nothing to build for Assignment_6
+17:42:17 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o 
+Info: Nothing to build for Assignment_6
+17:43:07 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:01:09 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o 
+Info: Nothing to build for Assignment_6
+18:01:34 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o 
+Info: Nothing to build for Assignment_6
+18:25:53 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+..\Q4.c:13:1: error: two or more data types in declaration specifiers
+ struct Semployee
+ ^~~~~~
+..\Q4.c:19:1: warning: useless type name in empty declaration
+ };
+ ^
+..\Q4.c: In function 'read_data':
+..\Q4.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q4.c: In function 'main':
+..\Q4.c:75:17: error: 'n' undeclared (first use in this function)
+   scanf("%d" , &n);
+                 ^
+..\Q4.c:75:17: note: each undeclared identifier is reported only once for each function it appears in
+..\Q4.c:78:8: error: 'i' undeclared (first use in this function)
+   for (i = 0 ; i<n ; i++)
+        ^
+18:26:01 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+..\Q4.c: In function 'read_data':
+..\Q4.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q4.c: In function 'main':
+..\Q4.c:75:17: error: 'n' undeclared (first use in this function)
+   scanf("%d" , &n);
+                 ^
+..\Q4.c:75:17: note: each undeclared identifier is reported only once for each function it appears in
+..\Q4.c:78:8: error: 'i' undeclared (first use in this function)
+   for (i = 0 ; i<n ; i++)
+        ^
+11:14:36 **** Rebuild of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:56:24: warning: unused variable 'p' [-Wunused-variable]
+     struct Semployee** p = arr;
+                        ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+..\Q4.c: In function 'main':
+..\Q4.c:52:18: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("input %d numbers of elements in the array:\n");
+                  ^
+..\Q4.c:82:1: error: expected declaration or statement at end of input
+ }
+ ^
+11:14:57 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+..\Q4.c: In function 'main':
+..\Q4.c:52:18: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("input %d numbers of elements in the array:\n");
+                  ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+Q5.o: In function `main':
+D:\work\Diploma\My workspace updated\Assignment_6\Assignment_6\Debug/../Q5.c:46: multiple definition of `main'
+Q4.o:D:\work\Diploma\My workspace updated\Assignment_6\Assignment_6\Debug/../Q4.c:15: first defined here
+collect2.exe: error: ld returned 1 exit status
+11:15:06 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+Info: Nothing to build for Assignment_6
+11:16:16 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+Info: Nothing to build for Assignment_6
+11:44:59 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:56:16: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     void** p = arr;
+                ^~~
+..\Q5.c:83:17: error: invalid type argument of unary '*' (have 'int')
+   printf("%d" , **(int*)p+1 );
+                 ^~~~~~~~~
+..\Q5.c:59:13: warning: unused variable 'n' [-Wunused-variable]
+     int i , n;
+             ^
+..\Q5.c: At top level:
+..\Q5.c:94:2: error: expected identifier or '(' before 'return'
+  return 0;
+  ^~~~~~
+..\Q5.c:95:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+11:45:16 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:56:16: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     void** p = arr;
+                ^~~
+..\Q5.c:83:17: error: invalid type argument of unary '*' (have 'int')
+   printf("%d" , **(int*)p+1 );
+                 ^~~~~~~~~
+..\Q5.c:59:13: warning: unused variable 'n' [-Wunused-variable]
+     int i , n;
+             ^
+11:45:24 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:56:16: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     void** p = arr;
+                ^~~
+..\Q5.c:59:13: warning: unused variable 'n' [-Wunused-variable]
+     int i , n;
+             ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+Info: Nothing to build for Assignment_6
+11:46:28 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:56:16: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     void** p = arr;
+                ^~~
+..\Q5.c:83:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("%d" , *(int**)p+1 );
+            ^
+..\Q5.c:59:13: warning: unused variable 'n' [-Wunused-variable]
+     int i , n;
+             ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+Info: Nothing to build for Assignment_6
+11:47:39 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:56:16: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     void** p = arr;
+                ^~~
+..\Q5.c:85:17: warning: dereferencing 'void *' pointer
+   printf("%d" , **p );
+                 ^~~
+..\Q5.c:85:3: error: invalid use of void expression
+   printf("%d" , **p );
+   ^~~~~~
+..\Q5.c:59:13: warning: unused variable 'n' [-Wunused-variable]
+     int i , n;
+             ^
+11:47:45 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:56:16: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     void** p = arr;
+                ^~~
+..\Q5.c:59:13: warning: unused variable 'n' [-Wunused-variable]
+     int i , n;
+             ^
+..\Q5.c:56:12: warning: unused variable 'p' [-Wunused-variable]
+     void** p = arr;
+            ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+Info: Nothing to build for Assignment_6
+11:48:56 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:59:13: warning: unused variable 'n' [-Wunused-variable]
+     int i , n;
+             ^
+..\Q5.c:56:21: warning: unused variable 'p' [-Wunused-variable]
+  struct Semployee** p = arr;
+                     ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+13:09:00 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:82:4: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   p=arr;
+    ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+Info: Nothing to build for Assignment_6
+13:11:09 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:82:4: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   p=arr;
+    ^
+..\Q5.c:94:30: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+     printf("employee name : %s" , *(p->name));
+                              ^
+..\Q5.c:97:33: error: invalid type argument of unary '*' (have 'int')
+     printf("employee ID : %d" , *(p->id));
+                                 ^~~~~~~~
+13:11:34 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:82:4: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   p=arr;
+    ^
+..\Q5.c:94:30: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+     printf("employee name : %s" , (*p->name));
+                              ^
+..\Q5.c:97:34: error: invalid type argument of unary '*' (have 'int')
+     printf("employee ID : %d" , (*p->id));
+                                  ^~~~~~
+13:11:45 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:82:4: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   p=arr;
+    ^
+..\Q5.c:94:30: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+     printf("employee name : %s" , (*p->name));
+                              ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:11:55 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:82:4: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   p=arr;
+    ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:13:18 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:92:9: error: '*p' is a pointer; did you mean to use '->'?
+    if((p->id) == n)
+         ^~
+         ->
+..\Q5.c:94:37: error: '*p' is a pointer; did you mean to use '->'?
+     printf("employee name : %s" , (p->name));
+                                     ^~
+                                     ->
+..\Q5.c:97:35: error: '*p' is a pointer; did you mean to use '->'?
+     printf("employee ID : %d" , (p->id));
+                                   ^~
+                                   ->
+13:13:38 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:92:11: error: '*p' is a pointer; did you mean to use '->'?
+    if((**p->id) == n)
+           ^~
+           ->
+..\Q5.c:94:37: error: '*p' is a pointer; did you mean to use '->'?
+     printf("employee name : %s" , (p->name));
+                                     ^~
+                                     ->
+..\Q5.c:97:35: error: '*p' is a pointer; did you mean to use '->'?
+     printf("employee ID : %d" , (p->id));
+                                   ^~
+                                   ->
+13:16:06 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+..\Q5.c: In function 'main':
+..\Q5.c:92:17: error: expected expression before '==' token
+    if((*p)->id) == n)
+                 ^~
+..\Q5.c:92:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+    if((*p)->id) == n)
+    ^~
+..\Q5.c:92:21: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+    if((*p)->id) == n)
+                     ^
+..\Q5.c:92:21: error: expected statement before ')' token
+..\Q5.c:94:46: error: expected ';' before ')' token
+     printf("employee name : %s" , (*p)->name));
+                                              ^
+..\Q5.c:94:46: error: expected statement before ')' token
+..\Q5.c:97:36: error: '*p' is a pointer; did you mean to use '->'?
+     printf("employee ID : %d" , (p)->id));
+                                    ^~
+                                    ->
+..\Q5.c:97:41: error: expected ';' before ')' token
+     printf("employee ID : %d" , (p)->id));
+                                         ^
+..\Q5.c:97:41: error: expected statement before ')' token
+..\Q5.c:101:4: error: 'else' without a previous 'if'
+    else
+    ^~~~
+13:17:23 **** Incremental Build of configuration Debug for project Assignment_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'read_data':
+..\Q5.c:31:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s" , &employee.name);
+          ^
+gcc -o Assignment_6.exe Q1.o Q2.o Q3.o Q4.o Q5.o 
+Info: Nothing to build for Assignment_6

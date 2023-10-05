@@ -1,0 +1,110 @@
+/*
+ * Q4.c
+ *
+ *  Created on: 4 Oct 2023
+ *      Author: Gamal Hazem
+ */
+
+#include "stdio.h"
+#include"strings.h"
+
+void
+
+struct Semployee
+
+{
+	char name [50];
+	int id;
+
+};
+
+struct Semployee read_data ()
+{
+	struct Semployee employee;
+
+	printf("Enter information of employee:\n");
+	fflush(stdin);fflush(stdout);
+
+	printf("Enter first name:  ");
+	fflush(stdin);fflush(stdout);
+
+	scanf("%s" , &employee.name);
+	fflush(stdin);fflush(stdout);
+
+	printf("Enter roll number:  ");
+	fflush(stdin);fflush(stdout);
+
+	scanf("%d" , &employee.id);
+	fflush(stdin);fflush(stdout);
+
+
+
+	return employee;
+}
+
+
+int main() {
+
+////// PROMPT TO RELOOP THE FUNCTION //////
+
+	int prompt = 1;
+
+////// DATA FOR PROGRAM ///////
+
+	struct Semployee* arr [15];
+
+    struct Semployee** p = arr;
+
+	while (1) {
+
+		printf("Continue?");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%d", &prompt);
+		fflush(stdin);
+		fflush(stdout);
+
+		if (prompt == 0)
+			break;
+
+////// PROGRAM //////
+
+		printf("input the number of elements in an array (max 15): ");
+		fflush(stdin);fflush(stdout);
+
+		scanf("%d" , &n);
+		fflush(stdin);fflush(stdout);
+
+		for (i = 0 ; i<n ; i++)
+		{
+
+			printf("element - %d : " , i+1);
+			fflush(stdin);fflush(stdout);
+
+			scanf("%d" , &arr[i]);
+			fflush(stdin);fflush(stdout);
+
+		}
+
+		p = arr;
+
+		p+=(n-1);
+
+		printf("The elements of array in reverse order:\n");
+		fflush(stdin);fflush(stdout);
+
+		for(i=n-1;i>=0;i--)
+		{
+			printf("element - %d : %d\n" , i+1 , *p);
+
+			p--;
+
+
+		}
+
+
+
+	}
+
+	return 0;
+}
